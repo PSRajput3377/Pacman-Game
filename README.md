@@ -14,10 +14,11 @@ This project is a modern recreation of the classic Pacman game, enhanced with AI
 # Technologies Used
 - Programming Language: Python
 - Game Development Library: Pygame
-- AI Techniques:
-              - Pathfinding: A* algorithm
-              - Finite State Machines (FSM) for ghost behaviors
-              - Heuristic evaluation for adaptive difficulty
+  
+# AI Techniques:
+- Pathfinding: A* algorithm
+- Finite State Machines (FSM) for ghost behaviors
+- Heuristic evaluation for adaptive difficulty
 
 # Install
 - This project run on **Python 3.x**
