@@ -1,8 +1,23 @@
-# Playing Pac-Man game
+AI Pacman Game 🕹️
 
-![Pac-Man game](pacman_game.gif)
+# Overview
+This project is a modern recreation of the classic Pacman game, enhanced with AI-powered features. Built using Python and Pygame, the game incorporates intelligent enemy behaviors and dynamic gameplay mechanics, offering a challenging and engaging user experience.
 
-The Pac-Man projects were developed for [UC Berkeley's introductory artificial intelligence course, CS 188](http://ai.berkeley.edu/project_overview.html). They apply an array of AI techniques to playing Pac-Man. However, these projects don't focus on building AI for video games. Instead, they teach foundational AI concepts, such as informed state-space search, probabilistic inference, and reinforcement learning. These concepts underly real-world application areas such as natural language processing, computer vision, and robotics.
+# Features
+Classic Gameplay: Navigate the maze, collect pellets, and avoid ghosts.
+AI-Powered Ghosts: Ghosts use AI algorithms for strategic movement, making gameplay more challenging.
+Dynamic Difficulty: Ghosts adapt their strategies based on player performance.
+User-Friendly Interface: Intuitive controls and a visually appealing design.
+Score Tracking: Tracks and displays the player's score in real time.
+
+
+# Technologies Used
+Programming Language: Python
+Game Development Library: Pygame
+AI Techniques:
+Pathfinding: A* algorithm
+Finite State Machines (FSM) for ghost behaviors
+Heuristic evaluation for adaptive difficulty
 
 # Install
 - This project run on **Python 3.x**
