@@ -1,8 +1,24 @@
-# Playing Pac-Man game
+## AI Pacman Game 🕹️
 
-![Pac-Man game](pacman_game.gif)
+# Overview
+This project is a modern recreation of the classic Pacman game, enhanced with AI-powered features. Built using Python and Pygame, the game incorporates intelligent enemy behaviors and dynamic gameplay mechanics, offering a challenging and engaging user experience.
 
-The Pac-Man projects were developed for [UC Berkeley's introductory artificial intelligence course, CS 188](http://ai.berkeley.edu/project_overview.html). They apply an array of AI techniques to playing Pac-Man. However, these projects don't focus on building AI for video games. Instead, they teach foundational AI concepts, such as informed state-space search, probabilistic inference, and reinforcement learning. These concepts underly real-world application areas such as natural language processing, computer vision, and robotics.
+# Features
+- Classic Gameplay: Navigate the maze, collect pellets, and avoid ghosts.
+- AI-Powered Ghosts: Ghosts use AI algorithms for strategic movement, making gameplay more challenging.
+- Dynamic Difficulty: Ghosts adapt their strategies based on player performance.
+- User-Friendly Interface: Intuitive controls and a visually appealing design.
+- Score Tracking: Tracks and displays the player's score in real time.
+
+
+# Technologies Used
+- Programming Language: Python
+- Game Development Library: Pygame
+  
+# AI Techniques:
+- Pathfinding: A* algorithm
+- Finite State Machines (FSM) for ghost behaviors
+- Heuristic evaluation for adaptive difficulty
 
 # Install
 - This project run on **Python 3.x**
@@ -10,7 +26,10 @@ The Pac-Man projects were developed for [UC Berkeley's introductory artificial i
 ```
 pip install -r requirements.txt
 ```
-
+# Install dependencies:
+```
+pip install pygame
+```
 # How to use the code
 - Simply type the following command
 ```
@@ -20,28 +39,6 @@ python pacman.py
 ```
 python pacman.py -h
 ```
+- Use arrow keys to control Pacman and collect all pellets while avoiding ghosts.
+- Earn bonus points by eating power pellets and chasing ghosts.
 
-# Using Pac-Man in your AI Course
-You are welcome to use the Pac-Man projects and infrastructure for any educational or personal use. We ask only that you:
-
-1. Please do not distribute or post solutions to any of the projects.
-2. Please retain the attribution text at the top of each Python file.
-3. Talk to us before re-releasing, repacking, or extending the projects.
-
-Additionally, if you have any questions, feedback, or bug reports about our projects, there are two ways of getting them addressed. (1) An public instructor forum through Piazza, in which you will need to contact us to get an access code to join, and (2) a private form linked here (preferably for bug reports). For more information, see the [Contact](http://ai.berkeley.edu/contact.html) section.
-
-# Contact Information
-
-## Course Materials
-
-The lecture slides, homework and exams were developed primarily by [Dan Klein](http://www.eecs.berkeley.edu/~klein) and [Pieter Abbeel](http://www.eecs.berkeley.edu/~pabbeel).
-
-The artwork was drawn by [Ketrina Yim](http://www.ketrinayim.com/).
-
-## The Pacman Projects
-
-The Pac-Man projects were developed primarily by [John DeNero](http://www.denero.org/) and [Dan Klein](http://www.eecs.berkeley.edu/~klein).
-
-The autograder development was headed up by Nick Hay, Brad Miller, [Dan Klein](http://www.eecs.berkeley.edu/~klein), and [Pieter Abbeel](http://www.eecs.berkeley.edu/~pabbeel).
-
-Many others have contributed to the projects, including Nimar Arora, David Burkett, Jeremy Cowles, Jeff Donahue, Dan Gillick, Aria Haghighi, Judy Hoffman, Ed Karuna, Jonathan Long, Jeremy Maitin-Shepard, Barak Michener, Aditi Muralidharan, Adam Pauls, Arjun Singh, and Daniel Urieli.
