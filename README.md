@@ -26,7 +26,10 @@ This project is a modern recreation of the classic Pacman game, enhanced with AI
 ```
 pip install -r requirements.txt
 ```
-
+# Install dependencies:
+```
+pip install pygame
+```
 # How to use the code
 - Simply type the following command
 ```
