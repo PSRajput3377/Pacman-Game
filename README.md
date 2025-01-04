@@ -39,3 +39,6 @@ python pacman.py
 ```
 python pacman.py -h
 ```
+- Use arrow keys to control Pacman and collect all pellets while avoiding ghosts.
+- Earn bonus points by eating power pellets and chasing ghosts.
+
