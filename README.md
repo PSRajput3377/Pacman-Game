@@ -1,6 +1,6 @@
 ## AI Pacman Game 🕹️
 
-- ![image](https://github.com/user-attachments/assets/5ada8307-2492-4e36-ac38-028d4b9c5639)
+- [![image](https://github.com/user-attachments/assets/5ada8307-2492-4e36-ac38-028d4b9c5639)](https://github.com/hoangchunghien/ai-pacman-game/blob/master/pacman_game.gif)
 
 
 # Overview
