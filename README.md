@@ -1,5 +1,8 @@
 ## AI Pacman Game 🕹️
 
+- ![image](https://github.com/user-attachments/assets/5ada8307-2492-4e36-ac38-028d4b9c5639)
+
+
 # Overview
 This project is a modern recreation of the classic Pacman game, enhanced with AI-powered features. Built using Python and Pygame, the game incorporates intelligent enemy behaviors and dynamic gameplay mechanics, offering a challenging and engaging user experience.
 
